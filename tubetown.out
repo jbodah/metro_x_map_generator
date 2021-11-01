@@ -1,0 +1,54 @@
+* Number of routes: 9
+* Number of nodes: 78
+* Number of transfers: 23
+* Total route points: 39
+* Total transfer points: 98
+
+* Min route length:  6
+* Max route length:  19
+* Avg route length:  11.6
+* Mode route length: 11
+
+* Min route points:   2
+* Max route points:   7
+* Avg route points:   4.3
+* Mode route points:  4
+
+* Min number of transfers:  2
+* Max number of transfers:  7
+* Avg number of transfers:  5.4
+* Mode number of transfers: 6
+
+* Min transfer points:  4
+* Max transfer points:  6
+* Avg transfer points:  4.3
+* Mode transfer points: 4
+
+* Min route length to route points:  #{board.stations.map { |s| ratio(s.path.size, s.high_value) }.min}
+* Max route length to route points:  #{board.stations.map { |s| ratio(s.path.size, s.high_value) }.max}
+* Avg route length to route points:  #{board.stations.map { |s| ratio(s.path.size, s.high_value) }.avg}
+* Mode route length to route points: #{board.stations.map { |s| ratio(s.path.size, s.high_value) }.mode}
+
+* Min num transfers to route points:  #{board.stations
+* Max num transfers to route points:  #{board.stations
+* Avg num transfers to route points:  #{board.stations
+* Mode num transfers to route points: #{board.stations
+
+* Min num transfers to route points:  TODO
+* Max num transfers to route points:  TODO
+* Avg num transfers to route points:  TODO
+* Mode num transfers to route points: TODO
+
+* Min number of station boxes:  2
+* Max number of station boxes:  4
+* Avg number of station boxes:  2.6
+* Mode number of station boxes: 2
+
+* Transfer overlap
+* Station boxes
+* Segment lengths
+*** MaxFitPlayer ***
+[count] 500
+[bm-total] 1.9240469997748733
+[bm-avg] 0.0038480939995497467
+[stats] {:min=>3, :max=>46, :avg=>22.5, :mode=>22}
